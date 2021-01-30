@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: #132d3a;
+}
+.hold {
+  height: 220px;
+}
+.headerColor {
+  background-color: #0f242e;
+}
+
+.nav:hover {
+  color: white !important;
+}
+.nav {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.active {
+  border-bottom: 2px solid #0275d8;
+}
+.amoled {
+  width: 400px;
+}
+.logoHolder {
+  width: 400px;
+  height: 177px;
+  border: 2px solid white !important;
+  border-width: 0.4ex 0.4ex 1.15ex !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reactLogo {
+    animation: reactLogo infinite 20s linear;
+  }
+}
+@keyframes reactLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.reactLogo {
+  color: #61dbfb;
+}
+
+.flexNav {
+  display: flex !important;
+  justify-content: space-between !important;
+  color: red !important;
+}
+.btns {
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 3px;
+}
+.onOfBtn {
+  position: absolute;
+  top: 27%;
+}
+.mlSlash {
+  margin-left: -3px;
+}
+.mlTag {
+  margin-left: -14px;
+}
+.navbar-toggler {
+  background-color: #343a40;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+.footer {
+  min-height: 180px;
+  background-color: #0f242e;
+}
+.input {
+  background-color: transparent !important;
+  color: white !important;
+  border: 0 !important;
+  border-bottom: 2px solid white !important;
+  border-radius: none !important;
+}
+
+.input:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid white !important;
+}
+.mtPhone {
+  margin-top: 1.4%;
+}
+.mI1 {
+  width: 35px;
+  height: 35px;
+}
+.mI2 {
+  width: 38px;
+  height: 38px;
+}
+.mI3 {
+  width: 45px;
+  height: 42px;
+}
+
+.m4 {
+  margin-top: 18px;
+}
+
+.amoledd {
+  width: 500px;
+  height: 200px;
+  border: 2px solid white;
+  margin-top: 50px;
+  background-color: #3c4441;
+}
+
+.typed-text {
+  background-color: transparent !important;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 768px) {
+  .amoled {
+    width: 400px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .amoled {
+    width: 300px;
+  }
+  .navbar-toggler {
+    width: 40px;
+    height: 42px;
+    margin-top: -12px;
+  }
+  .navbar-toggler-icon {
+    width: 32px;
+    height: 30px;
+    margin-left: -9px;
+  }
+  /* .mSkills {
+    margin-left: 5px !important;
+  }
+  .mProjects {
+    margin-left: 0 auto !important;
+  } */
+}
+
+@media all and (max-width: 375px) {
+  .amoled {
+    width: 280px;
+  }
+  .navbar-toggler {
+    width: 36px;
+    height: 38px;
+    margin-top: -12px;
+  }
+  .navbar-toggler-icon {
+    width: 28px;
+    height: 26px;
+    margin-left: -9px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .amoled {
+    width: 250px;
+  }
+  .navbar-toggler {
+    width: 34px;
+    height: 34px;
+    margin-top: -15px;
+  }
+  .navbar-toggler-icon {
+    width: 26px;
+    height: 24px;
+    margin-left: -9px;
+  }
+}
