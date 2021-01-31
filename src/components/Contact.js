@@ -3,20 +3,51 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
+import emailjs from "emailjs-com";
 import Typed from "react-typed";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+      setValidated(true);
+    } else {
+      event.preventDefault();
+      emailjs
+        .sendForm(
+          "service_avtcxxb",
+          "template_2snhhon",
+          event.target,
+          "user_EFNEKYsE5ii41w7j3BanV"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      event.target.reset();
+      setValidated(false);
+      timeOut();
     }
-
-    setValidated(true);
   };
+
+  const timeOut = () => {
+    setTimeout(function () {
+      setSuccess("Your message has been sent successfully!");
+    }, 800);
+    setTimeout(function () {
+      setSuccess("");
+    }, 10000);
+  };
+
   return (
     <Container>
       <h4 className="mt-5 text-center text-light">Contact</h4>
@@ -45,6 +76,7 @@ function Contact() {
                   required
                   type="text"
                   placeholder="name"
+                  name="name"
                   className="input"
                 />
                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -58,6 +90,7 @@ function Contact() {
                   required
                   type="email"
                   placeholder="email"
+                  name="email"
                   className="input"
                 />
                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -73,6 +106,7 @@ function Contact() {
                   required
                   type="text"
                   placeholder="subject"
+                  name="subject"
                   className="input"
                 />
                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -86,6 +120,7 @@ function Contact() {
                   as="textarea"
                   type="text"
                   placeholder="message"
+                  name="message"
                   className="input"
                   required
                 />
@@ -120,6 +155,9 @@ function Contact() {
             <GoLocation size="1.5em" className="text-light" /> Smederevo, Serbia
           </div>
         </Col>
+      </Row>
+      <Row>
+        <h4 className="mx-auto text-success mt-3">{success}</h4>
       </Row>
     </Container>
   );
