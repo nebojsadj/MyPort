@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
@@ -8,7 +9,7 @@ import Typed from "react-typed";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const history = useHistory();
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -35,17 +36,8 @@ function Contact() {
         );
       event.target.reset();
       setValidated(false);
-      timeOut();
+      history.push("/message");
     }
-  };
-
-  const timeOut = () => {
-    setTimeout(function () {
-      setSuccess("Your message has been sent successfully!");
-    }, 800);
-    setTimeout(function () {
-      setSuccess("");
-    }, 10000);
   };
 
   return (
@@ -155,9 +147,6 @@ function Contact() {
             <GoLocation size="1.5em" className="text-light" /> Smederevo, Serbia
           </div>
         </Col>
-      </Row>
-      <Row>
-        <h4 className="mx-auto text-success mt-3">{success}</h4>
       </Row>
     </Container>
   );

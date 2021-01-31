@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Message from "./components/Message";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/contact" exact>
           <Contact />
+        </Route>
+        <Route path="/message">
+          <Message />
         </Route>
       </Switch>
       <Footer />
