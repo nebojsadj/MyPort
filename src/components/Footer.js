@@ -12,9 +12,11 @@ function Footer() {
               <div className="text-light mt-4">
                 Visit my GitHub for more projects.
               </div>
-              <Button variant="primary" className="text-light mt-3">
-                <AiFillGithub size="1.6em" /> Nebojsadj
-              </Button>
+              <a href="https://github.com/nebojsadj" target="blanc">
+                <Button variant="primary" className="text-light mt-3">
+                  <AiFillGithub size="1.6em" /> Nebojsadj
+                </Button>
+              </a>
             </Col>
           </Row>
         </Col>
