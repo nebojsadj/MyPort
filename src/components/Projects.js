@@ -1,13 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import shopImg from "../pictures/shop.png";
 import weatherImg from "../pictures/WeatherImg.png";
 import recipeImg from "../pictures/recipeImg.png";
 import todoImg from "../pictures/todoImg.png";
 import clubImg from "../pictures/clubImg.jpg";
 import cafeImg from "../pictures/cafeImg.png";
+import msImg from "../pictures/msImg.png";
 import agronomImg from "../pictures/agronomImg.png";
 import { RiEarthFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -21,12 +24,12 @@ function Projects() {
           <Row className="text-center">
             <Col className="d-flex justify-content-around mt-5">
               <Card style={{ width: "19rem" }}>
-                <Card.Img variant="top" src={todoImg} height="200px" />
+                <Card.Img variant="top" src={shopImg} height="200px" />
                 <Card.Body
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Todo</Card.Title>
+                  <Card.Title>Guitars shop</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -45,139 +48,21 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="d-flex justify-content-around mt-5">
-              <Card style={{ width: "19rem" }}>
-                <Card.Img variant="top" src={clubImg} height="200px" />
-                <Card.Body
-                  className="text-light"
-                  style={{ backgroundColor: "#0f242e" }}
-                >
-                  <Card.Title>Club Members</Card.Title>
-                  <Badge pill variant="light">
-                    HTML
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    CSS
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    JavaScript
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    React
-                  </Badge>
-                  <Badge className="mt-2" pill variant="light">
-                    Redux
-                  </Badge>
-                  <Badge className="mt-2 ml-2" pill variant="light">
-                    Bootstrap
-                  </Badge>
                   <Card.Text className="mt-2">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Guitar Shop is my version of the web shop app. Works on the
+                    principle of SPA concept with rect router.
                   </Card.Text>
                   <Button className="btn-sm float-left" variant="primary">
                     <RiEarthFill size="1.6em" /> Demo
                   </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
-                </Card.Body>
-              </Card>{" "}
-            </Col>
-            <Col className="d-flex justify-content-around mt-5">
-              <Card style={{ width: "19rem" }}>
-                <Card.Img variant="top" src={weatherImg} height="200px" />
-                <Card.Body
-                  className="text-light"
-                  style={{ backgroundColor: "#0f242e" }}
-                >
-                  <Card.Title className="text-light">Weather</Card.Title>
-                  <Badge pill variant="light">
-                    HTML
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    CSS
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    JavaScript
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    React
-                  </Badge>
-                  <Badge className="mt-2" pill variant="light">
-                    Redux
-                  </Badge>
-                  <Badge className="mt-2 ml-2" pill variant="light">
-                    API
-                  </Badge>
-                  <Badge className="mt-2 ml-2" pill variant="light">
-                    Bootstrap
-                  </Badge>
-                  <Card.Text className="mt-2">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
-                </Card.Body>
-              </Card>{" "}
-            </Col>
-            <Col className="d-flex justify-content-around mt-5">
-              <Card style={{ width: "19rem" }}>
-                <Card.Img variant="top" src={recipeImg} height="200px" />
-                <Card.Body
-                  className="text-light"
-                  style={{ backgroundColor: "#0f242e" }}
-                >
-                  <Card.Title className="text-light">Recipe</Card.Title>
-                  <Badge pill variant="light">
-                    HTML
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    CSS
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    JavaScript
-                  </Badge>
-                  <Badge className="ml-2" pill variant="light">
-                    React
-                  </Badge>
-                  <Badge className="mt-2" pill variant="light">
-                    Redux
-                  </Badge>
-                  <Badge className="mt-2 ml-2" pill variant="light">
-                    API
-                  </Badge>
-                  <Badge className="mt-2 ml-2" pill variant="light">
-                    React-bootstrap
-                  </Badge>
-                  <Card.Text className="mt-2">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
+                  <a
+                    href="https://github.com/nebojsadj/GuitarShop-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -210,16 +95,123 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Text className="mt-2">
+                    There can be an unlimited number of tables in the cafe and
+                    each orders for himself and calculates the bill.
                   </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
+                  <a
+                    href="https://keen-khorana-bfc6c5.netlify.app"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/Cafe-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            <Col className="d-flex justify-content-around mt-5">
+              <Card style={{ width: "19rem" }}>
+                <Card.Img variant="top" src={clubImg} height="200px" />
+                <Card.Body
+                  className="text-light"
+                  style={{ backgroundColor: "#0f242e" }}
+                >
+                  <Card.Title>Club Members</Card.Title>
+                  <Badge pill variant="light">
+                    HTML
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    CSS
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    JavaScript
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    React
+                  </Badge>
+                  <Badge className="mt-2" pill variant="light">
+                    Redux
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    Bootstrap
+                  </Badge>
+                  <Card.Text className="mt-2">
+                    This is a SPA where the CRUD concept is shown on the example
+                    of club members.
+                  </Card.Text>
+                  <a
+                    href="https://vigorous-wiles-0c9f71.netlify.app"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/ClubMembers-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="d-flex justify-content-around mt-5">
+              <Card style={{ width: "19rem" }}>
+                <Card.Img variant="top" src={msImg} height="200px" />
+                <Card.Body
+                  className="text-light"
+                  style={{ backgroundColor: "#0f242e" }}
+                >
+                  <Card.Title>Metaluniver Stojanovic</Card.Title>
+                  <Badge pill variant="light">
+                    HTML
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    CSS
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    JavaScript
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    React
+                  </Badge>
+
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    React-bootstrap
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    EmailJs
+                  </Badge>
+                  <Card.Text className="mt-3">
+                    A classic website made according to the client's
+                    requirements.
+                  </Card.Text>
+                  <a href="https://www.metaluniverstojanovic.rs" target="blanc">
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/MetaluniverStojanovic"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -250,16 +242,176 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     EmailJs
                   </Badge>
-                  <Card.Text className="mt-2">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Text className="mt-3">
+                    A classic website made according to the client's
+                    requirements.
                   </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
-                  <Button className="btn-sm float-right" variant="primary">
-                    <FaGithub size="1.5em" /> Code
-                  </Button>
+                  <a href="https://www.agronoms.rs" target="blanc">
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/AgronomS"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="d-flex justify-content-around mt-5">
+              <Card style={{ width: "19rem" }}>
+                <Card.Img variant="top" src={recipeImg} height="200px" />
+                <Card.Body
+                  className="text-light"
+                  style={{ backgroundColor: "#0f242e" }}
+                >
+                  <Card.Title className="text-light">Recipe</Card.Title>
+                  <Badge pill variant="light">
+                    HTML
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    CSS
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    JavaScript
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    React
+                  </Badge>
+                  <Badge className="mt-2" pill variant="light">
+                    Redux
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    API
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    React-bootstrap
+                  </Badge>
+                  <Card.Text className="mt-2">
+                    This application displays recipes, using API calls that are
+                    executed with Redux-thunk.
+                  </Card.Text>
+                  <a
+                    href="https://wonderful-mccarthy-7a8de1.netlify.app"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/Recipe-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="d-flex justify-content-around mt-5">
+              <Card style={{ width: "19rem" }}>
+                <Card.Img variant="top" src={todoImg} height="200px" />
+                <Card.Body
+                  className="text-light"
+                  style={{ backgroundColor: "#0f242e" }}
+                >
+                  <Card.Title>Todo</Card.Title>
+                  <Badge pill variant="light">
+                    HTML
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    CSS
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    JavaScript
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    React
+                  </Badge>
+                  <Badge className="mt-2" pill variant="light">
+                    Redux
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    React-bootstrap
+                  </Badge>
+                  <Card.Text className="mt-2">
+                    A simple list to do, add new tasks, cross out and delete
+                    done ones.
+                  </Card.Text>
+                  <a
+                    href="https://silly-nightingale-523d98.netlify.app"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/Todo-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="d-flex justify-content-around mt-5">
+              <Card style={{ width: "19rem" }}>
+                <Card.Img variant="top" src={weatherImg} height="200px" />
+                <Card.Body
+                  className="text-light"
+                  style={{ backgroundColor: "#0f242e" }}
+                >
+                  <Card.Title className="text-light">Weather</Card.Title>
+                  <Badge pill variant="light">
+                    HTML
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    CSS
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    JavaScript
+                  </Badge>
+                  <Badge className="ml-2" pill variant="light">
+                    React
+                  </Badge>
+                  <Badge className="mt-2" pill variant="light">
+                    Redux
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    API
+                  </Badge>
+                  <Badge className="mt-2 ml-2" pill variant="light">
+                    Bootstrap
+                  </Badge>
+                  <Card.Text className="mt-2">
+                    This is a weather forecast as an exercise for API calls that
+                    are executed with Redux-thunk.
+                  </Card.Text>
+                  <a
+                    href="https://cocky-jepsen-bea8e8.netlify.app"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/nebojsadj/Weather-React"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-right" variant="primary">
+                      <FaGithub size="1.5em" /> Code
+                    </Button>
+                  </a>
                 </Card.Body>
               </Card>
             </Col>

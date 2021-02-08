@@ -136,11 +136,11 @@ function Contact() {
         >
           <div className="text-light mt-5">
             <p className="text-primary">Phone</p>
-            <FiPhoneCall size="1.4em" className="text-light" /> +381 64 4444444
+            <FiPhoneCall size="1.4em" className="text-light" /> +381 64 4428044
           </div>
           <div className="text-light mt-5">
             <p className="text-primary">Email</p>
-            <AiOutlineMail size="1.8em" /> djordjevicn.dev@gmail.com
+            <AiOutlineMail size="1.8em" /> djordjevicn87@gmail.com
           </div>
           <div className="text-light mt-5">
             <p className="text-primary">Address</p>

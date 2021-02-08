@@ -10,18 +10,15 @@ function About() {
         <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>
           <h5 className="text-center text-light mt-5 mb-4">About Me</h5>
           <p>
-            I am currently I`m open to know opportunities so if you someone
-            who's looking to hire a dedicated web developer for you own your
-            business then feel free to contact me
+            Hello, my name is Nebojsa Djordjevic JavaScript developer
+            specializing in React ecosystem.
           </p>
         </Col>
         <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>
           <h5 className="text-center text-light mt-5 mb-4">Education</h5>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            est rem voluptate inventore sit voluptas molestiae repudiandae
-            accusamus dolores, accusantium cupiditate rerum numquam explicabo
-            tenetur ex doloremque? Rerum, expedita ab.
+            By profession I am a graduate professor of physical education,
+            University of Belgrade.
           </p>
         </Col>
         <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>

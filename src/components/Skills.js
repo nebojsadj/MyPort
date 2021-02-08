@@ -46,8 +46,8 @@ function Skills() {
         </div>
         <div className="text-center">
           <img src={reactBootImg} alt="reactBootstrap" className="mI1" />
-          <p className="text-primary" style={{ fontSize: "12px" }}>
-            R-B
+          <p className="text-primary" style={{ fontSize: "11px" }}>
+            Ract <br /> Bootstrap
           </p>
         </div>
       </Col>
