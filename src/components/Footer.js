@@ -9,11 +9,11 @@ function Footer() {
         <Col md={{ span: 10, offset: 1 }} xs={{ span: 10, offset: 1 }}>
           <Row className="mx-auto">
             <Col className="text-center">
-              <div className="text-light mt-4">
+              <div className="text-light mt-4 fMore">
                 Visit my GitHub for more projects.
               </div>
               <a href="https://github.com/nebojsadj" target="blanc">
-                <Button variant="primary" className="text-light mt-3">
+                <Button variant="primary" className="text-light mt-3 fBtn">
                   <AiFillGithub size="1.6em" /> Nebojsadj
                 </Button>
               </a>
@@ -23,7 +23,7 @@ function Footer() {
       </Row>
       <hr className="bg-light d-flex mx-auto" width="60%" />
       <Row className="d-flex justify-content-center">
-        <p className="text-light">
+        <p className="text-light fCopy">
           &copy;{new Date().getFullYear()} DjordjevicN
         </p>
       </Row>

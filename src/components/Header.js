@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Form, Image } from "react-bootstrap";
 import screen from "../pictures/screen.jpg";
 import { SiReact } from "react-icons/si";
@@ -11,16 +11,18 @@ function Header() {
 
   return (
     <Container fluid className="headerColor">
-      <Row className="d-flex justify-content-center hold">
-        {logo ? (
-          <div className="logoHolder mt-5">
-            <SiReact size="8em" className="reactLogo mt-3" />
-          </div>
-        ) : (
-          <Image src={screen} className="amoled mt-5" />
-        )}
+      <Row>
+        <Col xs={{ span: 12 }} className="d-flex justify-content-center hold">
+          {logo ? (
+            <div className="logoHolder mt-5">
+              <SiReact size="8em" className="reactLogo mt-3" />
+            </div>
+          ) : (
+            <Image src={screen} className="amoled mt-5" />
+          )}
+        </Col>
       </Row>
-      <Row className="d-flex justify-content-center mt-1">
+      <Row className="d-flex justify-content-center mt-1 mSwitch">
         <Form.Check
           onClick={() => setLogo(!logo)}
           className="text-light mt-1"

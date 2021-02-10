@@ -5,25 +5,29 @@ import Skills from "./Skills";
 function About() {
   return (
     <Container className="text-light">
-      <h4 className="text-center text-light mt-5 mb-4">About Me</h4>
+      <h4 className="text-center text-light mt-5 mb-4 mH">About Me</h4>
       <Row>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>
-          <h5 className="text-center text-light mt-5 mb-4">About Me</h5>
-          <p>
-            Hello, my name is Nebojsa Djordjevic JavaScript developer
-            specializing in React ecosystem.
+        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
+          <h5 className="text-center text-light mt-5 mb-4 hAbout">About Me</h5>
+          <p className="mP">
+            Hello I'm Nebojsa Djordjevic frontend developer. I like to work with
+            JavaScript and i am focused on ReactJs ecosystem, always open to
+            perfecting and learning new things.
           </p>
         </Col>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>
-          <h5 className="text-center text-light mt-5 mb-4">Education</h5>
-          <p>
-            By profession I am a graduate professor of physical education,
-            University of Belgrade.
+        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
+          <h5 className="text-center text-light mt-5 mb-4 hAbout">Education</h5>
+          <p className="mP">
+            By profession i am a graduate professor of physical education at the
+            University of Belgrade. Meanwhile i realized that my passion is
+            JavaScript so i decided to dedicate my career to it.
           </p>
         </Col>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 10, offset: 1 }}>
-          <h5 className="text-center text-light mt-5 mb-4">Technologies</h5>
-          <p>
+        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
+          <h5 className="text-center text-light mt-5 mb-4 hAbout">
+            Technologies
+          </h5>
+          <p className="mP">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
             est rem voluptate inventore sit voluptas molestiae repudiandae
             accusamus dolores, accusantium cupiditate rerum numquam explicabo
@@ -31,7 +35,7 @@ function About() {
           </p>
         </Col>
       </Row>
-      <h5 className="text-center text-light mt-4">My Skills</h5>
+      <h5 className="text-center text-light mt-4 hAbout">My Skills</h5>
       <Skills />
     </Container>
   );

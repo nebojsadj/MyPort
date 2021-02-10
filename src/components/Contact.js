@@ -42,16 +42,15 @@ function Contact() {
 
   return (
     <Container>
-      <h4 className="mt-5 text-center text-light">Contact</h4>
+      <h4 className="mt-5 text-center text-light mH">Contact</h4>
       <Typed
         strings={[
           "Hello, you want to contact me?",
           "leave a message and press the button below.",
-          // "i will reply to you as soon as possible.",
         ]}
         typeSpeed={80}
         backSpeed={20}
-        className="d-block typed-text"
+        className="d-block typed-text hPro"
       />
 
       <Row>
@@ -60,7 +59,12 @@ function Contact() {
           xs={{ span: 10, offset: 1 }}
           style={{ borderLeft: "1px solid white" }}
         >
-          <Form noValidate validated={validated} onSubmit={handleSubmit}>
+          <Form
+            noValidate
+            validated={validated}
+            onSubmit={handleSubmit}
+            className="mP"
+          >
             <Form.Row>
               <Form.Group as={Col} md="12" controlId="validationCustom01">
                 <Form.Label className="text-primary">Name</Form.Label>
@@ -122,7 +126,7 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Form.Row>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="mP">
               Send
             </Button>
           </Form>
@@ -134,15 +138,15 @@ function Contact() {
             borderLeft: "1px solid white",
           }}
         >
-          <div className="text-light mt-5">
+          <div className="text-light mt-5 mP">
             <p className="text-primary">Phone</p>
             <FiPhoneCall size="1.4em" className="text-light" /> +381 64 4428044
           </div>
-          <div className="text-light mt-5">
+          <div className="text-light mt-5 mP">
             <p className="text-primary">Email</p>
             <AiOutlineMail size="1.8em" /> djordjevicn87@gmail.com
           </div>
-          <div className="text-light mt-5">
+          <div className="text-light mt-5 mP">
             <p className="text-primary">Address</p>
             <GoLocation size="1.5em" className="text-light" /> Smederevo, Serbia
           </div>

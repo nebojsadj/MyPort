@@ -29,7 +29,7 @@ body {
 }
 .logoHolder {
   width: 400px;
-  height: 177px;
+  height: 172px;
   border: 2px solid white !important;
   border-width: 0.4ex 0.4ex 1.15ex !important;
   display: flex;
@@ -113,18 +113,20 @@ body {
   width: 45px;
   height: 42px;
 }
-
+.fontIcons {
+  font-size: 14px;
+}
 .m4 {
   margin-top: 18px;
 }
 
-.amoledd {
+/* .amoledd {
   width: 500px;
   height: 200px;
   border: 2px solid white;
   margin-top: 50px;
   background-color: #3c4441;
-}
+} */
 
 .typed-text {
   background-color: transparent !important;
@@ -143,7 +145,7 @@ body {
 
 @media all and (max-width: 425px) {
   .amoled {
-    width: 300px;
+    width: 395px;
   }
   .navbar-toggler {
     width: 40px;
@@ -155,17 +157,71 @@ body {
     height: 30px;
     margin-left: -9px;
   }
-  /* .mSkills {
-    margin-left: 5px !important;
+  .mH {
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+    font-size: 20px;
   }
-  .mProjects {
-    margin-left: 0 auto !important;
-  } */
+  .hAbout {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+  }
+  .mI1 {
+    width: 30px;
+    height: 30px;
+  }
+  .mI2 {
+    width: 33px;
+    height: 33px;
+  }
+  .mI3 {
+    width: 42px;
+    height: 39px;
+  }
+  .fontIcons {
+    font-size: 13px;
+  }
+  .mS1 {
+    margin-top: 25px !important;
+  }
+  .mS2 {
+    margin-top: 0px !important;
+  }
+  .fMore {
+    font-size: 14px;
+  }
+  .fBtn {
+    font-size: 13px;
+  }
+  .fCopy {
+    font-size: 12px;
+  }
+  .hPro {
+    font-size: 18px;
+  }
 }
 
 @media all and (max-width: 375px) {
   .amoled {
-    width: 280px;
+    width: 350px;
+    height: 150px;
+  }
+  .logoHolder {
+    width: 350px;
+    height: 150px;
+    border-width: 0.4ex 0.4ex 1ex !important;
+  }
+  .reactLogo {
+    width: 110px;
+    height: 110px;
+    margin-top: 12px !important;
+  }
+  .mSwitch {
+    margin-top: -20px !important;
+  }
+  .fontIcons {
+    font-size: 12px;
   }
   .navbar-toggler {
     width: 36px;
@@ -177,11 +233,70 @@ body {
     height: 26px;
     margin-left: -9px;
   }
+  .mH {
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+  }
+  .hAbout {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 16px;
+  }
+  .mP {
+    font-size: 14px;
+  }
+  .mI1 {
+    width: 25px;
+    height: 25px;
+  }
+  .mI2 {
+    width: 33px;
+    height: 33px;
+  }
+  .mI3 {
+    width: 42px;
+    height: 39px;
+  }
+  .fontIcons {
+    font-size: 13px;
+  }
+  .mS1 {
+    margin-top: 25px !important;
+  }
+  .mS2 {
+    margin-top: 0px !important;
+  }
+  .fMore {
+    font-size: 14px;
+  }
+  .fBtn {
+    font-size: 13px;
+  }
+  .fCopy {
+    font-size: 12px;
+  }
+  .hPro {
+    font-size: 18px;
+  }
 }
 
 @media all and (max-width: 320px) {
   .amoled {
-    width: 250px;
+    width: 290px;
+    height: 140px;
+  }
+  .logoHolder {
+    height: 140px;
+    border-width: 0.4ex 0.4ex 0.9ex !important;
+  }
+  .reactLogo {
+    width: 100px;
+    height: 100px;
+    margin-top: 14px !important;
+  }
+  .mSwitch {
+    margin-top: -30px !important;
   }
   .navbar-toggler {
     width: 34px;
@@ -192,5 +307,51 @@ body {
     width: 26px;
     height: 24px;
     margin-left: -9px;
+  }
+  .mH {
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+  }
+  .hAbout {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 16px;
+  }
+  .mP {
+    font-size: 14px;
+  }
+  .mI1 {
+    width: 25px;
+    height: 25px;
+  }
+  .mI2 {
+    width: 28px;
+    height: 28px;
+  }
+  .mI3 {
+    width: 38px;
+    height: 34px;
+  }
+  .fontIcons {
+    font-size: 11px;
+  }
+  .mS1 {
+    margin-top: 25px !important;
+  }
+  .mS2 {
+    margin-top: -15px !important;
+  }
+  .fMore {
+    font-size: 13px;
+  }
+  .fBtn {
+    font-size: 12px;
+  }
+  .fCopy {
+    font-size: 11px;
+  }
+  .hPro {
+    font-size: 16px;
   }
 }

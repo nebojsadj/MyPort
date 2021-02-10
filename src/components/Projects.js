@@ -14,8 +14,8 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
   return (
     <Container>
-      <h4 className="mt-5 text-center text-light">Projects</h4>
-      <h5 className="mt-3 mb-3 text-center text-light">
+      <h4 className="mt-5 text-center text-light mH">Projects</h4>
+      <h5 className="mt-3 mb-3 text-center text-light hPro">
         Here you can find some of the projects on which i worked recently
       </h5>
       <Row>
@@ -28,7 +28,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Guitars shop</Card.Title>
+                  <Card.Title className="hPro">Guitars shop</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -47,7 +47,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     Guitar Shop is my version of the web shop app. Works on the
                     principle of SPA concept with rect router.
                   </Card.Text>
@@ -55,7 +55,10 @@ function Projects() {
                     href="https://gallant-mcclintock-f46e86.netlify.app/"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -63,7 +66,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/GuitarShop-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -77,7 +83,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Cafe</Card.Title>
+                  <Card.Title className="hPro">Cafe</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -99,7 +105,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     There can be an unlimited number of tables in the cafe and
                     each orders for himself and calculates the bill.
                   </Card.Text>
@@ -107,7 +113,10 @@ function Projects() {
                     href="https://keen-khorana-bfc6c5.netlify.app"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -115,7 +124,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/Cafe-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -130,7 +142,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Club Members</Card.Title>
+                  <Card.Title className="hPro">Club Members</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -149,7 +161,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     Bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     This is a SPA where the CRUD concept is shown on the example
                     of club members.
                   </Card.Text>
@@ -157,7 +169,10 @@ function Projects() {
                     href="https://vigorous-wiles-0c9f71.netlify.app"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -165,7 +180,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/ClubMembers-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -179,7 +197,9 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Metaluniver Stojanovic</Card.Title>
+                  <Card.Title className="hPro">
+                    Metaluniver Stojanovic
+                  </Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -199,12 +219,15 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     EmailJs
                   </Badge>
-                  <Card.Text className="mt-3">
+                  <Card.Text className="mt-3 mP">
                     A classic website made according to the client's
                     requirements.
                   </Card.Text>
                   <a href="https://www.metaluniverstojanovic.rs" target="blanc">
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -212,7 +235,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/MetaluniverStojanovic"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -226,7 +252,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Agronom S</Card.Title>
+                  <Card.Title className="hPro">Agronom S</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -246,12 +272,15 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     EmailJs
                   </Badge>
-                  <Card.Text className="mt-3">
+                  <Card.Text className="mt-3 mP">
                     A classic website made according to the client's
                     requirements.
                   </Card.Text>
                   <a href="https://www.agronoms.rs" target="blanc">
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -259,7 +288,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/AgronomS"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -273,7 +305,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title className="text-light">Recipe</Card.Title>
+                  <Card.Title className="hPro">Recipe</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -295,7 +327,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     This application displays recipes, using API calls that are
                     executed with Redux-thunk.
                   </Card.Text>
@@ -303,7 +335,10 @@ function Projects() {
                     href="https://wonderful-mccarthy-7a8de1.netlify.app"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -311,7 +346,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/Recipe-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -325,7 +363,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title>Todo</Card.Title>
+                  <Card.Title className="hPro">Todo</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -344,7 +382,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     React-bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     A simple list to do, add new tasks, cross out and delete
                     done ones.
                   </Card.Text>
@@ -352,7 +390,10 @@ function Projects() {
                     href="https://silly-nightingale-523d98.netlify.app"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -360,7 +401,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/Todo-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
@@ -374,7 +418,7 @@ function Projects() {
                   className="text-light"
                   style={{ backgroundColor: "#0f242e" }}
                 >
-                  <Card.Title className="text-light">Weather</Card.Title>
+                  <Card.Title className="hPro">Weather</Card.Title>
                   <Badge pill variant="light">
                     HTML
                   </Badge>
@@ -396,7 +440,7 @@ function Projects() {
                   <Badge className="mt-2 ml-2" pill variant="light">
                     Bootstrap
                   </Badge>
-                  <Card.Text className="mt-2">
+                  <Card.Text className="mt-2 mP">
                     This is a weather forecast as an exercise for API calls that
                     are executed with Redux-thunk.
                   </Card.Text>
@@ -404,7 +448,10 @@ function Projects() {
                     href="https://cocky-jepsen-bea8e8.netlify.app"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-left" variant="primary">
+                    <Button
+                      className="btn-sm float-left fBtn"
+                      variant="primary"
+                    >
                       <RiEarthFill size="1.6em" /> Demo
                     </Button>
                   </a>
@@ -412,7 +459,10 @@ function Projects() {
                     href="https://github.com/nebojsadj/Weather-React"
                     target="blanc"
                   >
-                    <Button className="btn-sm float-right" variant="primary">
+                    <Button
+                      className="btn-sm float-right fBtn"
+                      variant="primary"
+                    >
                       <FaGithub size="1.5em" /> Code
                     </Button>
                   </a>
