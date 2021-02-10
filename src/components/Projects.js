@@ -51,9 +51,14 @@ function Projects() {
                     Guitar Shop is my version of the web shop app. Works on the
                     principle of SPA concept with rect router.
                   </Card.Text>
-                  <Button className="btn-sm float-left" variant="primary">
-                    <RiEarthFill size="1.6em" /> Demo
-                  </Button>
+                  <a
+                    href="https://gallant-mcclintock-f46e86.netlify.app/"
+                    target="blanc"
+                  >
+                    <Button className="btn-sm float-left" variant="primary">
+                      <RiEarthFill size="1.6em" /> Demo
+                    </Button>
+                  </a>
                   <a
                     href="https://github.com/nebojsadj/GuitarShop-React"
                     target="blanc"
