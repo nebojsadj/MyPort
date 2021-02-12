@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import reactBootImg from "../pictures/reactBootImg.png";
 import {
   SiHtml5,
   SiCss3,
@@ -20,27 +19,29 @@ function Skills() {
         xs={{ span: 12 }}
         className="d-flex justify-content-around mt-5 mS1"
       >
-        <div className="text-center">
-          <SiHtml5 size="3em" className="mSkills mI1" />
-          <p className="text-primary fontIcons">HTML</p>
+        <div className="text-center skills">
+          <SiHtml5 className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">HTML</p>
+          </div>
         </div>
-        <div className="text-center">
-          <SiCss3 size="3em" className="mSkills mI1" />
-          <p className="text-primary fontIcons">CSS</p>
+        <div className="text-center skills">
+          <SiCss3 className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">CSS</p>
+          </div>
         </div>
-        <div className="text-center">
-          <SiJavascript size="2.8em" className="mSkills mI1" />
-          <p className="text-primary fontIcons">JavaScript</p>
+        <div className="text-center skills">
+          <SiJavascript className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">JavaScript</p>
+          </div>
         </div>
-        <div className="text-center">
-          <BsBootstrap size="2.5em" className="mSkills mI1" />
-          <p className="text-primary fontIcons">Bootstrap</p>
-        </div>
-        <div className="text-center">
-          <img src={reactBootImg} alt="reactBootstrap" className="mI1" />
-          <p className="text-primary" style={{ fontSize: "11px" }}>
-            Ract <br /> Bootstrap
-          </p>
+        <div className="text-center skills">
+          <SiReact className="mt-3 mI2" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">React</p>
+          </div>
         </div>
       </Col>
       <Col
@@ -48,20 +49,26 @@ function Skills() {
         xs={{ span: 12 }}
         className="d-flex justify-content-around mt-5 mS2"
       >
-        <div className="text-center m4">
-          <SiReact size="3em" className="mSkills mI2" />
-          <p className="text-primary fontIcons">React</p>
+        <div className="text-center skills m4">
+          <SiRedux className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">Redux</p>
+          </div>
         </div>
-        <div className="text-center m4">
-          <SiRedux size="3.1em" className="mSkills mI1" />
-          <p className="text-primary fontIcons">Redux</p>
+        <div className="text-center skills m4">
+          <BsBootstrap className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">Bootstrap</p>
+          </div>
         </div>
-        <div className="text-center mt-3">
-          <SiNpm size="3em" className="mSkills mI2" />
-          <p className="text-primary fontIcons">NPM</p>
+        <div className="text-center skills m4">
+          <SiNpm size="3em" className="mt-3 mI1" />
+          <div className="d-flex justify-content-center">
+            <p className="text-primary fontIcons">NPM</p>
+          </div>
         </div>
-        <div className="text-center m4">
-          <FaGitAlt size="3.6em" className="mSkills mI3" />
+        <div className="text-center skills m4">
+          <FaGitAlt size="3.6em" className="mt-3 mI2" />
           <p className="text-primary fontIcons">Git</p>
         </div>
       </Col>

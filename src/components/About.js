@@ -7,7 +7,7 @@ function About() {
     <Container className="text-light">
       <h4 className="text-center text-light mt-5 mb-4 mH">About Me</h4>
       <Row>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
+        <Col md={{ span: 5, offset: 1 }} xs={{ span: 12 }}>
           <h5 className="text-center text-light mt-5 mb-4 hAbout">About Me</h5>
           <p className="mP">
             Hello I'm Nebojsa Djordjevic frontend developer. I like to work with
@@ -15,23 +15,12 @@ function About() {
             perfecting and learning new things.
           </p>
         </Col>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
+        <Col md={{ span: 5, offset: 0 }} xs={{ span: 12 }}>
           <h5 className="text-center text-light mt-5 mb-4 hAbout">Education</h5>
           <p className="mP">
             By profession i am a graduate professor of physical education at the
             University of Belgrade. Meanwhile i realized that my passion is
             JavaScript so i decided to dedicate my career to it.
-          </p>
-        </Col>
-        <Col md={{ span: 4, offset: 0 }} xs={{ span: 12 }}>
-          <h5 className="text-center text-light mt-5 mb-4 hAbout">
-            Technologies
-          </h5>
-          <p className="mP">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            est rem voluptate inventore sit voluptas molestiae repudiandae
-            accusamus dolores, accusantium cupiditate rerum numquam explicabo
-            tenetur ex doloremque? Rerum, expedita ab.
           </p>
         </Col>
       </Row>

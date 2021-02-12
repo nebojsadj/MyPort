@@ -98,6 +98,11 @@ body {
   box-shadow: none !important;
   border-bottom: 2px solid white !important;
 }
+.skills {
+  width: 90px;
+  height: 85px;
+  border: 1px solid none;
+}
 .mtPhone {
   margin-top: 1.4%;
 }
@@ -109,25 +114,12 @@ body {
   width: 38px;
   height: 38px;
 }
-.mI3 {
-  width: 45px;
-  height: 42px;
-}
 .fontIcons {
   font-size: 14px;
 }
 .m4 {
   margin-top: 18px;
 }
-
-/* .amoledd {
-  width: 500px;
-  height: 200px;
-  border: 2px solid white;
-  margin-top: 50px;
-  background-color: #3c4441;
-} */
-
 .typed-text {
   background-color: transparent !important;
   color: white;
@@ -137,9 +129,17 @@ body {
   margin-bottom: 30px;
 }
 
+@media all and (max-width: 1024px) {
+  .mS2 {
+    margin-top: 30px !important;
+  }
+}
 @media all and (max-width: 768px) {
   .amoled {
     width: 400px;
+  }
+  .mS2 {
+    margin-top: 3px !important;
   }
 }
 
@@ -157,6 +157,10 @@ body {
     height: 30px;
     margin-left: -9px;
   }
+  .skills {
+    width: 70px;
+    height: 65px;
+  }
   .mH {
     margin-top: 25px !important;
     margin-bottom: 10px !important;
@@ -170,23 +174,21 @@ body {
   .mI1 {
     width: 30px;
     height: 30px;
+    margin-top: 12px !important;
   }
   .mI2 {
     width: 33px;
     height: 33px;
-  }
-  .mI3 {
-    width: 42px;
-    height: 39px;
+    margin-top: 10px !important;
   }
   .fontIcons {
-    font-size: 13px;
+    font-size: 12px;
   }
   .mS1 {
     margin-top: 25px !important;
   }
   .mS2 {
-    margin-top: 0px !important;
+    margin-top: 6px !important;
   }
   .fMore {
     font-size: 14px;
@@ -221,7 +223,7 @@ body {
     margin-top: -20px !important;
   }
   .fontIcons {
-    font-size: 12px;
+    font-size: 10px !important;
   }
   .navbar-toggler {
     width: 36px;
@@ -232,6 +234,10 @@ body {
     width: 28px;
     height: 26px;
     margin-left: -9px;
+  }
+  .skills {
+    width: 70px;
+    height: 65px;
   }
   .mH {
     margin-top: 25px !important;
@@ -246,20 +252,18 @@ body {
   .mP {
     font-size: 14px;
   }
+  .fontIcons {
+    font-size: 12px;
+  }
   .mI1 {
     width: 25px;
     height: 25px;
+    margin-top: 10px !important;
   }
   .mI2 {
     width: 33px;
     height: 33px;
-  }
-  .mI3 {
-    width: 42px;
-    height: 39px;
-  }
-  .fontIcons {
-    font-size: 13px;
+    margin-top: 8px !important;
   }
   .mS1 {
     margin-top: 25px !important;
