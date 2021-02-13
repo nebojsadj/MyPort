@@ -38,7 +38,7 @@ function Skills() {
           </div>
         </div>
         <div className="text-center skills">
-          <SiReact className="mt-3 mI2" />
+          <SiReact className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
             <p className="text-primary fontIcons">React</p>
           </div>
@@ -68,7 +68,7 @@ function Skills() {
           </div>
         </div>
         <div className="text-center skills m4">
-          <FaGitAlt size="3.6em" className="mt-3 mI2" />
+          <FaGitAlt size="3.6em" className="mt-3 mI1" />
           <p className="text-primary fontIcons">Git</p>
         </div>
       </Col>
