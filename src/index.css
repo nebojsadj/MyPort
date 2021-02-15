@@ -20,7 +20,10 @@ body {
   text-decoration: none !important;
   color: white !important;
 }
-
+.footerNav {
+  text-decoration: none !important;
+  color: white;
+}
 .active {
   border-bottom: 2px solid #0275d8;
 }
@@ -74,12 +77,6 @@ body {
 }
 .mlTag {
   margin-left: -14px;
-}
-.navbar-toggler {
-  background-color: #343a40;
-}
-.navbar-toggler-icon {
-  background-color: white;
 }
 .footer {
   min-height: 180px;
@@ -143,16 +140,6 @@ body {
   .amoled {
     width: 395px;
   }
-  .navbar-toggler {
-    width: 40px;
-    height: 42px;
-    margin-top: -12px;
-  }
-  .navbar-toggler-icon {
-    width: 32px;
-    height: 30px;
-    margin-left: -9px;
-  }
   .skills {
     width: 70px;
     height: 65px;
@@ -193,6 +180,9 @@ body {
   .hPro {
     font-size: 18px;
   }
+  .footerNav {
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 375px) {
@@ -215,16 +205,6 @@ body {
   }
   .fontIcons {
     font-size: 10px !important;
-  }
-  .navbar-toggler {
-    width: 36px;
-    height: 38px;
-    margin-top: -12px;
-  }
-  .navbar-toggler-icon {
-    width: 28px;
-    height: 26px;
-    margin-left: -9px;
   }
   .skills {
     width: 70px;
@@ -288,16 +268,7 @@ body {
   .mSwitch {
     margin-top: -30px !important;
   }
-  .navbar-toggler {
-    width: 34px;
-    height: 34px;
-    margin-top: -15px;
-  }
-  .navbar-toggler-icon {
-    width: 26px;
-    height: 24px;
-    margin-left: -9px;
-  }
+
   .mH {
     margin-top: 25px !important;
     margin-bottom: 10px !important;
@@ -339,6 +310,9 @@ body {
   }
   .hPro {
     font-size: 16px;
+  }
+  .footerNav {
+    font-size: 13px;
   }
 }
 @media all and (max-width: 360px) {

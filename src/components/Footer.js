@@ -1,15 +1,27 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <Container fluid className="mt-5 footer">
+      <Row className="d-flex justify-content-center">
+        <Link to="/" className="mt-4 footerNav">
+          About Me
+        </Link>
+        <Link to="/projects" className="mt-4 ml-3 footerNav">
+          Projects
+        </Link>
+        <Link to="/contact" className="mt-4 ml-3 footerNav">
+          Contact
+        </Link>
+      </Row>
       <Row>
         <Col md={{ span: 10, offset: 1 }} xs={{ span: 10, offset: 1 }}>
           <Row className="mx-auto">
             <Col className="text-center">
-              <div className="text-light mt-4 fMore">
+              <div className="text-light mt-2 fMore">
                 Visit my GitHub for more projects.
               </div>
               <a href="https://github.com/nebojsadj" target="blanc">
