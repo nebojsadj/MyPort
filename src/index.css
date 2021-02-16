@@ -325,4 +325,7 @@ body {
     width: 290px;
     border-width: 0.4ex 0.4ex 0.9ex !important;
   }
+  .fCopy {
+    font-size: 11px;
+  }
 }
