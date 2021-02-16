@@ -34,10 +34,12 @@ function Footer() {
         </Col>
       </Row>
       <hr className="bg-light d-flex mx-auto" width="60%" />
-      <Row className="d-flex justify-content-center">
-        <p className="text-light fCopy">
-          &copy;{new Date().getFullYear()} DjordjevicN
-        </p>
+      <Row>
+        <Col className="d-flex justify-content-center">
+          <p className="text-light fCopy">
+            &copy;{new Date().getFullYear()} DjordjevicN
+          </p>
+        </Col>
       </Row>
     </Container>
   );
