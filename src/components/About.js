@@ -11,16 +11,16 @@ function About() {
           <h5 className="text-center text-light mt-5 mb-4 hAbout">About Me</h5>
           <p className="mP">
             Hello I'm Nebojsa Djordjevic frontend developer. I like to work with
-            JavaScript and i am focused on ReactJs ecosystem, always open to
+            JavaScript and I'm focused on ReactJs ecosystem, always open to
             perfecting and learning new things.
           </p>
         </Col>
         <Col md={{ span: 5, offset: 0 }} xs={{ span: 12 }}>
           <h5 className="text-center text-light mt-5 mb-4 hAbout">Education</h5>
           <p className="mP">
-            By profession i am a graduate professor of physical education at the
-            University of Belgrade. Meanwhile i realized that my passion is
-            JavaScript so i decided to dedicate my career to it.
+            By profession I'm a graduate professor of physical education at the
+            University of Belgrade. Meanwhile I realized that my passion is
+            JavaScript so I decided to dedicate my career to it.
           </p>
         </Col>
       </Row>
