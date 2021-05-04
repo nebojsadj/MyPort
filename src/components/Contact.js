@@ -126,7 +126,7 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Form.Row>
-            <Button type="submit" className="fBtn mP">
+            <Button type="submit" className="btnGiS mP">
               Send
             </Button>
           </Form>

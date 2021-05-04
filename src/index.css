@@ -60,17 +60,34 @@ body {
   font-size: 18px;
 }
 .fBtn {
-  background-color: #61dbfb;
+  background-color: white;
   color: #0f242e;
   font-weight: bold;
   border: 1px solid #0f242e;
 }
 .fBtn:hover {
+  border: 1px solid #61dbfb;
+  color: #0f242e;
+  background-color: #61dbfb;
+}
+.fBtn:focus {
   border: 1px solid white;
   color: #0f242e;
   background-color: white;
+  box-shadow: none;
 }
-.fBtn:focus {
+.btnGiS {
+  background-color: #61dbfb;
+  color: #0f242e;
+  font-weight: bold;
+  border: 1px solid #0f242e;
+}
+.btnGiS:hover {
+  border: 1px solid #61dbfb;
+  color: #0f242e;
+  background-color: white;
+}
+.btnGiS:focus {
   border: 1px solid white;
   color: #0f242e;
   background-color: white;
