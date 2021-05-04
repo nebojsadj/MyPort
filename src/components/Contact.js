@@ -67,7 +67,7 @@ function Contact() {
           >
             <Form.Row>
               <Form.Group as={Col} md="12" controlId="validationCustom01">
-                <Form.Label className="text-primary">Name</Form.Label>
+                <Form.Label className="text">Name</Form.Label>
                 <Form.Control
                   required
                   type="text"
@@ -81,7 +81,7 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="12" controlId="validationCustom02">
-                <Form.Label className="text-primary">Email</Form.Label>
+                <Form.Label className="text">Email</Form.Label>
                 <Form.Control
                   required
                   type="email"
@@ -97,7 +97,7 @@ function Contact() {
             </Form.Row>
             <Form.Row>
               <Form.Group as={Col} md="12" controlId="validationCustom03">
-                <Form.Label className="text-primary">Subject</Form.Label>
+                <Form.Label className="text">Subject</Form.Label>
                 <Form.Control
                   required
                   type="text"
@@ -111,7 +111,7 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="12" controlId="validationCustom04">
-                <Form.Label className="text-primary">Message</Form.Label>
+                <Form.Label className="text">Message</Form.Label>
                 <Form.Control
                   as="textarea"
                   type="text"
@@ -126,7 +126,7 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Form.Row>
-            <Button variant="primary" type="submit" className="mP">
+            <Button type="submit" className="fBtn mP">
               Send
             </Button>
           </Form>
@@ -139,15 +139,15 @@ function Contact() {
           }}
         >
           <div className="text-light mt-5 mP">
-            <p className="text-primary">Phone</p>
+            <p className="text">Phone</p>
             <FiPhoneCall size="1.4em" className="text-light" /> +381 64 4428044
           </div>
           <div className="text-light mt-5 mP">
-            <p className="text-primary">Email</p>
+            <p className="text">Email</p>
             <AiOutlineMail size="1.8em" /> djordjevicn87@gmail.com
           </div>
           <div className="text-light mt-5 mP">
-            <p className="text-primary">Address</p>
+            <p className="text">Address</p>
             <GoLocation size="1.5em" className="text-light" /> Smederevo, Serbia
           </div>
         </Col>

@@ -6,6 +6,16 @@
 body {
   background-color: #132d3a;
 }
+
+.firstLine {
+  width: 30%;
+  border: 2px solid #61dbfb;
+}
+
+.name {
+  color: #61dbfb;
+}
+
 .hold {
   height: 220px;
 }
@@ -24,8 +34,11 @@ body {
   text-decoration: none !important;
   color: white;
 }
+.footerNav:hover {
+  color: #61dbfb;
+}
 .active {
-  border-bottom: 2px solid #0275d8;
+  border-bottom: 1px solid #61dbfb;
 }
 .amoled {
   width: 400px;
@@ -37,6 +50,36 @@ body {
   border-width: 0.4ex 0.4ex 1.15ex !important;
   display: flex;
   justify-content: center;
+}
+
+.text {
+  color: #61dbfb;
+}
+
+.textAbout {
+  font-size: 18px;
+}
+.fBtn {
+  background-color: #61dbfb;
+  color: #0f242e;
+  font-weight: bold;
+  border: 1px solid #0f242e;
+}
+.fBtn:hover {
+  border: 1px solid white;
+  color: #0f242e;
+  background-color: white;
+}
+.fBtn:focus {
+  border: 1px solid white;
+  color: #0f242e;
+  background-color: white;
+  box-shadow: none;
+}
+.dev {
+  width: 65%;
+  float: right;
+  margin-top: 45px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -104,8 +147,8 @@ body {
   margin-top: 1.4%;
 }
 .mI1 {
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
 }
 .fontIcons {
   font-size: 14px;
@@ -126,6 +169,10 @@ body {
   .mS2 {
     margin-top: 30px !important;
   }
+  .dev {
+    width: 75%;
+    margin-top: 70px;
+  }
 }
 @media all and (max-width: 768px) {
   .amoled {
@@ -133,6 +180,12 @@ body {
   }
   .mS2 {
     margin-top: 3px !important;
+  }
+  .dev {
+    width: 60%;
+    float: none;
+    margin: 50px auto;
+    display: flex;
   }
 }
 
@@ -152,16 +205,14 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 18px;
+    font-size: 27px;
   }
   .mI1 {
     width: 30px;
     height: 30px;
     margin-top: 12px !important;
   }
-  .fontIcons {
-    font-size: 12px;
-  }
+
   .mS1 {
     margin-top: 25px !important;
   }
@@ -204,7 +255,7 @@ body {
     margin-top: -20px !important;
   }
   .fontIcons {
-    font-size: 10px !important;
+    font-size: 13px;
   }
   .skills {
     width: 70px;
@@ -218,13 +269,13 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 16px;
+    font-size: 24px;
   }
   .mP {
     font-size: 14px;
   }
   .fontIcons {
-    font-size: 12px;
+    font-size: 13px;
   }
   .mI1 {
     width: 25px;
@@ -247,6 +298,9 @@ body {
     font-size: 12px;
   }
   .hPro {
+    font-size: 18px;
+  }
+  .textAbout {
     font-size: 18px;
   }
 }
@@ -277,7 +331,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 16px;
+    font-size: 20px;
   }
   .mP {
     font-size: 14px;
@@ -291,7 +345,7 @@ body {
     height: 34px;
   }
   .fontIcons {
-    font-size: 11px;
+    font-size: 12px;
   }
   .mS1 {
     margin-top: 25px !important;
@@ -313,6 +367,9 @@ body {
   }
   .footerNav {
     font-size: 13px;
+  }
+  .textAbout {
+    font-size: 15px;
   }
 }
 @media all and (max-width: 360px) {

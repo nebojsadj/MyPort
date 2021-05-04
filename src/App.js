@@ -17,10 +17,10 @@ function App() {
         <Route path="/" exact>
           <About />
         </Route>
-        <Route path="/projects" exact>
+        <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/contact" exact>
+        <Route path="/contact">
           <Contact />
         </Route>
         <Route path="/message">

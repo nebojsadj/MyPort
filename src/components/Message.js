@@ -20,7 +20,7 @@ function Message() {
           <h5>Your message was sent successfully.</h5>
           <h5>I will answer as soon as possible.</h5>
 
-          <Button onClick={() => history.push("/")} className="mt-2">
+          <Button onClick={() => history.push("/")} className="fBtn mt-2">
             <RiArrowGoBackLine /> Go back
           </Button>
         </Col>

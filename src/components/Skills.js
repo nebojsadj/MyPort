@@ -22,25 +22,25 @@ function Skills() {
         <div className="text-center skills">
           <SiHtml5 className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">HTML</p>
+            <p className="text fontIcons">HTML</p>
           </div>
         </div>
         <div className="text-center skills">
           <SiCss3 className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">CSS</p>
+            <p className="text fontIcons">CSS</p>
           </div>
         </div>
         <div className="text-center skills">
           <SiJavascript className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">JavaScript</p>
+            <p className="text fontIcons">JavaScript</p>
           </div>
         </div>
         <div className="text-center skills">
           <SiReact className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">React</p>
+            <p className="text fontIcons">React</p>
           </div>
         </div>
       </Col>
@@ -52,24 +52,24 @@ function Skills() {
         <div className="text-center skills m4">
           <SiRedux className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">Redux</p>
+            <p className="text fontIcons">Redux</p>
           </div>
         </div>
         <div className="text-center skills m4">
           <BsBootstrap className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">Bootstrap</p>
+            <p className="text fontIcons">Bootstrap</p>
           </div>
         </div>
         <div className="text-center skills m4">
           <SiNpm size="3em" className="mt-3 mI1" />
           <div className="d-flex justify-content-center">
-            <p className="text-primary fontIcons">NPM</p>
+            <p className="text fontIcons">NPM</p>
           </div>
         </div>
         <div className="text-center skills m4">
           <FaGitAlt size="3.6em" className="mt-3 mI1" />
-          <p className="text-primary fontIcons">Git</p>
+          <p className="text fontIcons">Git</p>
         </div>
       </Col>
     </Row>

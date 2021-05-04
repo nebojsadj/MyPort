@@ -25,7 +25,7 @@ function Footer() {
                 Visit my GitHub for more projects.
               </div>
               <a href="https://github.com/nebojsadj" target="blanc">
-                <Button variant="primary" className="text-light mt-3 fBtn">
+                <Button className="mt-3 fBtn">
                   <AiFillGithub size="1.6em" /> Nebojsadj
                 </Button>
               </a>
