@@ -25,7 +25,7 @@ function About() {
           </p>
         </Col>
         <Col lg={{ span: 6 }} sm={{ span: 12 }}>
-          <Image src={dev} className="dev" />
+          <Image src={dev} className="dev" alt="developer" />
         </Col>
       </Row>
       <h4 className="text-center text-light mt-5 hAbout">My Skills</h4>

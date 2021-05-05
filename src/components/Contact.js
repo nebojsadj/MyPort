@@ -52,7 +52,6 @@ function Contact() {
         backSpeed={20}
         className="d-block typed-text hPro"
       />
-
       <Row>
         <Col
           md={{ span: 4, offset: 2 }}
