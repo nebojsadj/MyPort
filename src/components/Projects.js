@@ -19,7 +19,7 @@ function Projects() {
         Here you can find some of the projects on which i worked recently
       </h5>
       <Row>
-        <Col md={{ span: 10, offset: 1 }} xs={{ span: 12 }}>
+        <Col xl={{ span: 10, offset: 1 }} xs={{ span: 12 }}>
           <Row className="text-center">
             <Col className="d-flex justify-content-around mt-5">
               <Card style={{ width: "19rem" }}>

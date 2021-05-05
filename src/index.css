@@ -98,6 +98,9 @@ body {
   float: right;
   margin-top: 45px;
 }
+.borderLeft {
+  border-left: 1px solid white;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .reactLogo {

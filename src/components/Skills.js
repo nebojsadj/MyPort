@@ -15,7 +15,7 @@ function Skills() {
   return (
     <Row>
       <Col
-        md={{ span: 8, offset: 2 }}
+        md={{ span: 10, offset: 1 }}
         xs={{ span: 12 }}
         className="d-flex justify-content-around mt-5 mS1"
       >
@@ -45,7 +45,7 @@ function Skills() {
         </div>
       </Col>
       <Col
-        md={{ span: 8, offset: 2 }}
+        md={{ span: 10, offset: 1 }}
         xs={{ span: 12 }}
         className="d-flex justify-content-around mt-5 mS2"
       >

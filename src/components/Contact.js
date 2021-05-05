@@ -57,7 +57,7 @@ function Contact() {
         <Col
           md={{ span: 4, offset: 2 }}
           xs={{ span: 10, offset: 1 }}
-          style={{ borderLeft: "1px solid white" }}
+          className="borderLeft"
         >
           <Form
             noValidate
@@ -134,9 +134,7 @@ function Contact() {
         <Col
           md={{ span: 4, offset: 1 }}
           xs={{ span: 10, offset: 1 }}
-          style={{
-            borderLeft: "1px solid white",
-          }}
+          className="borderLeft"
         >
           <div className="text-light mt-5 mP">
             <p className="text">Phone</p>
