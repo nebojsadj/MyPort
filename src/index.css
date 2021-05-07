@@ -87,6 +87,15 @@ body {
   margin-top: -15px;
 }
 
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none !important;
+  border: 1px solid white !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #61dbfb !important;
+  background-color: #61dbfb !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .reactLogo {
     animation: reactLogo infinite 20s linear;
@@ -148,9 +157,7 @@ body {
   height: 85px;
   border: 1px solid none;
 }
-.mtPhone {
-  margin-top: 1.4%;
-}
+
 .mI1 {
   width: 38px;
   height: 38px;
