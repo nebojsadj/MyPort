@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import { AiOutlineMail } from "react-icons/ai";
-import { FiPhoneCall } from "react-icons/fi";
-import { GoLocation } from "react-icons/go";
+import send from "../pictures/message.svg";
 import emailjs from "emailjs-com";
 import Typed from "react-typed";
 
@@ -50,19 +49,15 @@ function Contact() {
         ]}
         typeSpeed={80}
         backSpeed={20}
-        className="d-block typed-text hPro"
+        className="d-block typed-text hPro mb-5"
       />
       <Row>
-        <Col
-          md={{ span: 4, offset: 2 }}
-          xs={{ span: 10, offset: 1 }}
-          className="borderLeft"
-        >
+        <Col md={{ span: 4, offset: 1 }} xs={{ span: 10, offset: 1 }}>
           <Form
             noValidate
             validated={validated}
             onSubmit={handleSubmit}
-            className="mP"
+            className="mP mt-4"
           >
             <Form.Row>
               <Form.Group as={Col} md="12" controlId="validationCustom01">
@@ -130,22 +125,10 @@ function Contact() {
             </Button>
           </Form>
         </Col>
-        <Col
-          md={{ span: 4, offset: 1 }}
-          xs={{ span: 10, offset: 1 }}
-          className="borderLeft"
-        >
-          <div className="text-light mt-5 mP">
-            <p className="text">Phone</p>
-            <FiPhoneCall size="1.4em" className="text-light" /> +381 64 4428044
-          </div>
-          <div className="text-light mt-5 mP">
-            <p className="text">Email</p>
+        <Col md={{ span: 7, offset: 0 }} xs={{ span: 12, offset: 0 }}>
+          <Image src={send} className="sendSVG" />
+          <div className="text-light text-center mt-4 textAbout mP">
             <AiOutlineMail size="1.8em" /> djordjevicn87@gmail.com
-          </div>
-          <div className="text-light mt-5 mP">
-            <p className="text">Address</p>
-            <GoLocation size="1.5em" className="text-light" /> Smederevo, Serbia
           </div>
         </Col>
       </Row>

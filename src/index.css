@@ -82,8 +82,9 @@ body {
   float: right;
   margin-top: 45px;
 }
-.borderLeft {
-  border-left: 1px solid white;
+.sendSVG {
+  width: 100%;
+  margin-top: -15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -177,6 +178,9 @@ body {
     width: 75%;
     margin-top: 70px;
   }
+  .sendSVG {
+    margin-top: 20px;
+  }
 }
 @media all and (max-width: 768px) {
   .amoled {
@@ -190,6 +194,9 @@ body {
     float: none;
     margin: 50px auto;
     display: flex;
+  }
+  .sendSVG {
+    margin-top: 50px;
   }
 }
 
@@ -237,6 +244,9 @@ body {
   }
   .footerNav {
     font-size: 14px;
+  }
+  .sendSVG {
+    margin-top: 20px;
   }
 }
 
