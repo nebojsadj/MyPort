@@ -120,9 +120,9 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Form.Row>
-            <Button type="submit" className="fBtn mP">
+            <button type="submit" className="btn fBtn mP">
               Send
-            </Button>
+            </button>
           </Form>
         </Col>
         <Col md={{ span: 7, offset: 0 }} xs={{ span: 12, offset: 0 }}>

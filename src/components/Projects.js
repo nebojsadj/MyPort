@@ -9,7 +9,7 @@ function Projects() {
     <Container>
       <h4 className="mt-5 text-center text-light mH">Projects</h4>
       <h5 className="mt-3 mb-3 text-center text-light hPro">
-        Here you can find some of the projects on which i worked recently
+        Here you can find some of the projects on which I worked recently
       </h5>
       <Row>
         <Col xl={{ span: 10, offset: 1 }} xs={{ span: 12 }}>
@@ -30,20 +30,14 @@ function Projects() {
                     ))}
                     <Card.Text className="mt-2 mP">{card.text}</Card.Text>
                     <a href={card.demo} target="blanc">
-                      <Button
-                        className="btn-sm float-left fBtn"
-                        variant="primary"
-                      >
+                      <button className="btn-sm float-left fBtn">
                         <RiEarthFill size="1.6em" /> Demo
-                      </Button>
+                      </button>
                     </a>
                     <a href={card.code} target="blanc">
-                      <Button
-                        className="btn-sm float-right fBtn"
-                        variant="primary"
-                      >
+                      <button className="btn-sm float-right fBtn">
                         <FaGithub size="1.5em" /> Code
-                      </Button>
+                      </button>
                     </a>
                   </Card.Body>
                 </Card>
