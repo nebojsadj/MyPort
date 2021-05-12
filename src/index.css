@@ -33,6 +33,7 @@ body {
 .footerNav {
   text-decoration: none !important;
   color: white;
+  transition-duration: 700ms;
 }
 .footerNav:hover {
   color: #61dbfb;
@@ -64,6 +65,7 @@ body {
   color: #0f242e;
   font-weight: bold;
   border: 1px solid #0f242e;
+  transition-duration: 700ms;
 }
 .fBtn:hover {
   border: 1px solid #61dbfb;
@@ -239,7 +241,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 27px;
+    font-size: 20px;
   }
   .mI1 {
     width: 30px;
@@ -306,7 +308,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 23px;
+    font-size: 18px;
   }
   .mP {
     font-size: 14px;
@@ -377,7 +379,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 20px;
+    font-size: 18px;
   }
   .mP {
     font-size: 14px;
