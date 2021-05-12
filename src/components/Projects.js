@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import { cardData } from "./CardData";
 import { RiEarthFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";

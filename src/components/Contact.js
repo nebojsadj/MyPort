@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Form, Image } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import { AiOutlineMail } from "react-icons/ai";
 import send from "../pictures/message.svg";
