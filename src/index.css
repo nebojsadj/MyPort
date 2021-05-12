@@ -96,6 +96,22 @@ body {
   background-color: #61dbfb !important;
 }
 
+.skills {
+  transition: transform 1s cubic-bezier(0.7, 0.04, 0.65, 1.71);
+  transition-property: all;
+}
+.skills:hover {
+  color: #61dbfb;
+  transform: rotate(30deg);
+}
+.text {
+  transition-duration: 1000ms;
+  transition-property: color;
+}
+.skills:hover > .text {
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .reactLogo {
     animation: reactLogo infinite 20s linear;
