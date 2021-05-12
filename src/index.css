@@ -177,8 +177,8 @@ body {
 }
 
 .mI1 {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 }
 .fontIcons {
   font-size: 14px;
@@ -205,6 +205,10 @@ body {
   }
   .sendSVG {
     margin-top: 20px;
+  }
+  .mI1 {
+    width: 38px;
+    height: 38px;
   }
 }
 @media all and (max-width: 768px) {
@@ -244,8 +248,8 @@ body {
     font-size: 20px;
   }
   .mI1 {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     margin-top: 12px !important;
   }
 
@@ -317,8 +321,8 @@ body {
     font-size: 13px;
   }
   .mI1 {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin-top: 10px !important;
   }
   .mS1 {
@@ -346,7 +350,7 @@ body {
 
 @media all and (max-width: 360px) {
   .hAbout {
-    font-size: 23px;
+    font-size: 18px;
   }
   .textAbout {
     font-size: 16px;
@@ -385,8 +389,8 @@ body {
     font-size: 14px;
   }
   .mI1 {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
   }
   .mI3 {
     width: 38px;
