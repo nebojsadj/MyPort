@@ -245,7 +245,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 20px;
+    font-size: 27px;
   }
   .mI1 {
     width: 32px;
@@ -312,7 +312,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 18px;
+    font-size: 23px;
   }
   .mP {
     font-size: 14px;
@@ -350,7 +350,7 @@ body {
 
 @media all and (max-width: 360px) {
   .hAbout {
-    font-size: 18px;
+    font-size: 23px;
   }
   .textAbout {
     font-size: 16px;
@@ -383,7 +383,7 @@ body {
   .hAbout {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 18px;
+    font-size: 20px;
   }
   .mP {
     font-size: 14px;

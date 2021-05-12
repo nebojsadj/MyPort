@@ -28,7 +28,7 @@ function About() {
           <Image src={dev} className="dev" alt="developer" />
         </Col>
       </Row>
-      <h4 className="text-center text-light mt-5 hAbout">My Skills</h4>
+      <h4 className="text-center text-light mt-5 mH">My Skills</h4>
       <Skills />
     </Container>
   );
