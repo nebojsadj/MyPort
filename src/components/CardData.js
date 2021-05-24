@@ -6,10 +6,28 @@ import clubImg from "../pictures/clubImg.jpg";
 import cafeImg from "../pictures/cafeImg.png";
 import msImg from "../pictures/msImg.png";
 import agronomImg from "../pictures/agronomImg.png";
+import kettlebells from "../pictures/kettlebells.jpg";
 
 export const cardData = [
   {
-    id: 101,
+    id: 109,
+    name: "Kettlebells",
+    img: kettlebells,
+    badge: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "React-router",
+      "React-scroll",
+      "Styled-components",
+    ],
+    text: "Kettlebells is an example of a website with Styled-components and React-scroll libraries.",
+    demo: "https://amazing-bhabha-866720.netlify.app",
+    code: "https://github.com/nebojsadj/Kettlebells",
+  },
+  {
+    id: 108,
     name: "Guitars shop",
     img: shopImg,
     badge: [
@@ -19,7 +37,6 @@ export const cardData = [
       "React",
       "React-router",
       "Redux",
-
       "React-bootstrap",
     ],
     text: "Guitar Shop is my version of the web shop app. Works on the principle of SPA concept with rect router.",
@@ -27,7 +44,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/GuitarShop-React",
   },
   {
-    id: 102,
+    id: 107,
     name: "Cafe",
     img: cafeImg,
     badge: [
@@ -44,7 +61,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/Cafe-React",
   },
   {
-    id: 103,
+    id: 106,
     name: "Club members",
     img: clubImg,
     badge: [
@@ -61,7 +78,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/ClubMembers-React",
   },
   {
-    id: 104,
+    id: 105,
     name: "Metaluniver Stojanovic",
     img: msImg,
     badge: [
@@ -78,7 +95,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/MetaluniverStojanovic",
   },
   {
-    id: 105,
+    id: 104,
     name: "Agronom S",
     img: agronomImg,
     badge: [
@@ -95,7 +112,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/AgronomS",
   },
   {
-    id: 106,
+    id: 103,
     name: "Recipe",
     img: recipeImg,
     badge: ["HTML", "CSS", "JavaScript", "React", "Redux", "API", "Bootstrap"],
@@ -104,7 +121,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/Recipe-React",
   },
   {
-    id: 107,
+    id: 102,
     name: "Todo",
     img: todoImg,
     badge: ["HTML", "CSS", "JavaScript", "React", "Redux", "React-bootstrap"],
@@ -113,7 +130,7 @@ export const cardData = [
     code: "https://github.com/nebojsadj/Todo-React",
   },
   {
-    id: 108,
+    id: 101,
     name: "Weather",
     img: weatherImg,
     badge: ["HTML", "CSS", "JavaScript", "React", "Redux", "API", "Bootstrap"],
