@@ -1,15 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiRedux,
-  SiNpm,
-} from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { BsBootstrap } from "react-icons/bs";
+import { data1, data2, data3 } from "./SkillsData";
 
 function Skills() {
   return (
@@ -19,44 +10,36 @@ function Skills() {
         xs={{ span: 12 }}
         className="d-flex justify-content-around mt-5 mS1"
       >
-        <div className="text-center skills">
-          <SiHtml5 className="mt-3 mI1" />
-          <p className="text fontIcons">HTML</p>
-        </div>
-        <div className="text-center skills">
-          <SiCss3 className="mt-3 mI1" />
-          <p className="text fontIcons">CSS</p>
-        </div>
-        <div className="text-center skills">
-          <SiJavascript className="mt-3 mI1" />
-          <p className="text fontIcons">JavaScript</p>
-        </div>
-        <div className="text-center skills">
-          <SiReact className="mt-3 mI1" />
-          <p className="text fontIcons">React</p>
-        </div>
+        {data1.map((el, i) => (
+          <div className="text-center skills" key={i + 150}>
+            {el.icon}
+            <p className="text fontIcons">{el.name}</p>
+          </div>
+        ))}
       </Col>
       <Col
         md={{ span: 10, offset: 1 }}
         xs={{ span: 12 }}
-        className="d-flex justify-content-around mt-5 mS2"
+        className="d-flex justify-content-around mt-5 mS1"
       >
-        <div className="text-center skills m4">
-          <SiRedux className="mt-3 mI1" />
-          <p className="text fontIcons">Redux</p>
-        </div>
-        <div className="text-center skills m4">
-          <BsBootstrap className="mt-3 mI1" />
-          <p className="text fontIcons">Bootstrap</p>
-        </div>
-        <div className="text-center skills m4">
-          <SiNpm size="3em" className="mt-3 mI1" />
-          <p className="text fontIcons">NPM</p>
-        </div>
-        <div className="text-center skills m4">
-          <FaGitAlt size="3.6em" className="mt-3 mI1" />
-          <p className="text fontIcons">Git</p>
-        </div>
+        {data2.map((el, i) => (
+          <div className="text-center skills" key={i + 160}>
+            {el.icon}
+            <p className="text fontIcons">{el.name}</p>
+          </div>
+        ))}
+      </Col>
+      <Col
+        md={{ span: 10, offset: 1 }}
+        xs={{ span: 12 }}
+        className="d-flex justify-content-around mt-5 mS1"
+      >
+        {data3.map((el, i) => (
+          <div className="text-center skills" key={i + 170}>
+            {el.icon}
+            <p className="text fontIcons">{el.name}</p>
+          </div>
+        ))}
       </Col>
     </Row>
   );
