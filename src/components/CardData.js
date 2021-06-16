@@ -7,8 +7,18 @@ import cafeImg from "../pictures/cafeImg.png";
 import msImg from "../pictures/msImg.png";
 import agronomImg from "../pictures/agronomImg.png";
 import kettlebells from "../pictures/kettlebells.jpg";
+import millionaire from "../pictures/millionaire.jpg";
 
 export const cardData = [
+  {
+    id: 109,
+    name: "Millionaire Quiz",
+    img: millionaire,
+    badge: ["HTML", "CSS", "JavaScript", "React", "SASS"],
+    text: "The famous quiz about Millionaire with the help of ReactJs and SASS. I hope you'll like it.",
+    demo: "https://elated-beaver-286cd3.netlify.app",
+    code: "https://github.com/nebojsadj/Millionaire",
+  },
   {
     id: 109,
     name: "Kettlebells",
