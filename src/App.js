@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -10,9 +10,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import ReactGA from "react-ga";
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize(211321248);
-  }, []);
+  ReactGA.initialize(211321248);
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <div>
