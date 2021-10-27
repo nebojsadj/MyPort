@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import ReactGA from "react-ga";
 
 function App() {
-  ReactGA.initialize("211321248");
+  ReactGA.initialize("UA-211321248-1");
   let location = useLocation();
 
   useEffect(() => {
