@@ -11,7 +11,7 @@ import millionaire from "../pictures/millionaire.jpg";
 
 export const cardData = [
   {
-    id: 109,
+    id: 110,
     name: "Millionaire Quiz",
     img: millionaire,
     badge: ["HTML", "CSS", "JavaScript", "React", "SASS"],
