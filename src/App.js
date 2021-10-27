@@ -1,5 +1,5 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Switch, useLocation } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
@@ -10,8 +10,12 @@ import ScrollToTop from "./components/ScrollToTop";
 import ReactGA from "react-ga";
 
 function App() {
-  ReactGA.initialize(211321248);
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.initialize("211321248");
+  let location = useLocation();
+
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
 
   return (
     <div>
